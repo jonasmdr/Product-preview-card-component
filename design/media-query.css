@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px) {
+    article {
+        width: 37.5rem;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .button-add-to-cart {
+        cursor: pointer;
+    }
+}
