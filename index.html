@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="design/style.css">
   <style>
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,31 +23,34 @@
 </head>
 <body>
   <main>
-    <figure>
-      <img src="images/image-product-mobile.jpg" alt="image of a perfume bottle">
-    </figure>
-    <section>
-      <section>
-        <p>
-          Perfume
-        </p>
-        <h1>
-          Gabrielle Essence Eau De Parfum
-        </h1>
-        <p>
-          A floral, solar and voluptuous interpretation composed by Olivier Polge,
-          Perfumer-Creator for the House of CHANEL.
-        </p>
+    <article>
+      <figure>
+        <img src="images/image-product-mobile.jpg" alt="image of a perfume bottle">
+      </figure>
+      <section class="main-section">
+        <section class="description-section">
+          <p class="perfume">
+            Perfume
+          </p>
+          <h1>
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="description">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+        </section>
+        <div class="price-conteiner">
+          <p class="discounted-price">
+            $149.99
+          </p>
+          <p class="price">
+            $169.99
+          </p>
+        </div>
+        <input class="button-add-to-cart" type="button" value="Add to Cart"></input>
       </section>
-      <p>
-        $149.99
-      </p>
-      <p>
-        $169.99
-      </p>
-      <input type="button" value="Add to Cart"></input>
-    </section>
-
+    </article>
   </main>
   
   <footer class="attribution">
