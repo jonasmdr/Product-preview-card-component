@@ -28,7 +28,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Here](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/challenge/65e6f48617e502f0b6ca3d02/refactor)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/flexbox-JZd_q9H--Ga)
 - Live Site URL: [Here](https://jonasmdr.github.io/Product-preview-card-component/)
 
 ## My process
@@ -48,10 +48,6 @@ I managed to get a good grasp of Flexbox and how to position boxes on the screen
 
 I’m going to keep deepening my knowledge of HTML, CSS, and JavaScript; even though these challenges don't include JS yet, I’m continuing to study it to gain a better, more in-depth understanding.
 
-### AI Collaboration
-
-- Gemini
-- I used it to identify a positioning issue with an element in the mobile version.
 
 ## Author
 
