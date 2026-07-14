@@ -1,14 +1,43 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1440px) {
+
     article {
         width: 37.5rem;
         height: auto;
         display: flex;
         flex-flow: row nowrap;
+        
+    }
+
+    figure {
+        width: 50%;
+        height: auto;
+    }
+
+    img {
+        max-inline-size: 100%;
+        block-size: auto;
+    }
+
+    .main-section {
+        width: 18.75rem;
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 2rem 0rem 2rem;
     }
 
     .button-add-to-cart {
+        width: 14.75rem;
+        height: 3.125rem;
+    }
+
+    .button-add-to-cart:hover {
+        width: 15rem;
+        height: 3.2rem;
         cursor: pointer;
     }
 }

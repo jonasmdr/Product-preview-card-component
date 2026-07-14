@@ -24,12 +24,16 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body onresize="changedsize()">
   <main>
     <article>
-      <figure>
-        <img src="images/image-product-mobile.jpg" alt="image of a perfume bottle">
-      </figure>
+      <picture>
+        <source
+          media="(max-width:1440px)"
+          srcset="images/image-product-mobile.jpg">
+          
+        <img id="image-perfume" src="images/image-product-desktop.jpg" alt="image of a perfume bottle">
+      </picture>
       <section class="main-section">
         <section class="description-section">
           <p class="perfume">
@@ -51,7 +55,7 @@
             $169.99
           </p>
         </div>
-        <input class="button-add-to-cart" type="button" value="Add to Cart"></input>
+        <button class="button-add-to-cart"><img src="images/icon-cart.svg" alt="car"> Add to Cart</button>
       </section>
     </article>
   </main>
